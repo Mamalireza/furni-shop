@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore modern furniture, designer chairs, and unique toys. A minimalist e-commerce showcase built with HTML & CSS."
+    />
+
+    <title>Furni</title>
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="favicon.png" alt="Furni Logo" class="logo__img" />
+        <span class="logo__txt">Furni</span>
+      </div>
+
+      <nav class="navbar">
+        <a href="." class="navbar__link">Home</a>
+        <a href="#about-us" class="navbar__link">About us</a>
+        <a href="#services" class="navbar__link">Services</a>
+        <a href="#blog" class="navbar__link">Blog</a>
+        <a href="#contact-us" class="navbar__link">Contact us</a>
+      </nav>
+
+      <div class="buttons">
+        <button type="button" aria-label="Profile" class="buttons__icon">
+          <img src="assets/icons/user.svg" alt="Profile" />
+        </button>
+        <button type="button" aria-label="Shopping Cart" class="buttons__icon">
+          <img src="assets/icons/shopping-cart.svg" alt="Shopping Cart" />
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero__cta">
+          <h1 class="hero__cta__title">Modern Interior Design Studio</h1>
+          <div class="hero__cta__actions">
+            <button type="button" class="btn hero__cta__btn--primary">Shop Now</button>
+            <button type="button" class="btn hero__cta__btn--outline">Explore</button>
+          </div>
+        </div>
+        <div class="hero__banner">
+          <img src="assets/images/hero-banner.png" alt="" class="hero__banner__img" />
+        </div>
+      </section>
+
+      <section id="top-seller" class="top-seller">
+        <div class="top-seller__description">
+          <h2>Crafted with excellent material.</h2>
+          <p>
+            Not just furniture, but a touch of art for your home. Created to inspire you, made to
+            last.
+          </p>
+          <button type="button" class="btn">Explore</button>
+        </div>
+
+        <div class="top-seller__products">
+          <figure class="top-seller__product">
+            <img src="assets/images/sofa-1.png" alt="Sofa 1" class="top-seller__product__img" />
+            <figcaption>
+              <span>Nordic Chair</span>
+              <span>$50.00</span>
+              <button type="button" aria-label="Add">
+                <img src="assets/icons/add.svg" alt="Add" />
+              </button>
+            </figcaption>
+          </figure>
+
+          <figure class="top-seller__product">
+            <img src="assets/images/sofa-2.png" alt="Sofa 2" class="top-seller__product__img" />
+            <figcaption>
+              <span>Kruzo Aero Chair</span>
+              <span>$78.00</span>
+              <button type="button" aria-label="Add">
+                <img src="assets/icons/add.svg" alt="Add" />
+              </button>
+            </figcaption>
+          </figure>
+
+          <figure class="top-seller__product">
+            <img src="assets/images/sofa-3.png" alt="Sofa 3" class="top-seller__product__img" />
+            <figcaption>
+              <span>Ergonomic Chair</span>
+              <span>$43.00</span>
+              <button type="button" aria-label="Add">
+                <img src="assets/icons/add.svg" alt="Add" />
+              </button>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="about-us" class="about-us">
+        <div class="about-us__content">
+          <div class="about-us__description">
+            <h2>Why Choose Us</h2>
+            <p>
+              At Furni, we craft furniture that brings style, comfort, and sustainability to your
+              home. Designs made to reflect you and last.
+            </p>
+          </div>
+
+          <div class="about-us__feature">
+            <section class="about-us__feature__item">
+              <div>
+                <img src="assets/icons/airplane.svg" alt="" />
+              </div>
+              <span>Fast & Free Shipping</span>
+              <p>
+                Quick delivery with zero shipping costs. Get your favorite pieces fast and
+                hassle-free.
+              </p>
+            </section>
+
+            <section class="about-us__feature__item">
+              <div>
+                <img src="assets/icons/bag.svg" alt="return icon" />
+              </div>
+              <span>Easy to Shop</span>
+              <p>
+                A smooth, effortless shopping experience with a few clicks, bringing your favorite
+                furniture home.
+              </p>
+            </section>
+
+            <section class="about-us__feature__item">
+              <div>
+                <img src="assets/icons/support.svg" alt="return icon" />
+              </div>
+              <span>24/7 Support</span>
+              <p>
+                Reliable support, day and night, to make your shopping simple, smooth, and
+                worry-free.
+              </p>
+            </section>
+
+            <section class="about-us__feature__item">
+              <div>
+                <img src="assets/icons/return.svg" alt="return icon" />
+              </div>
+              <span>Hassle Free Returns</span>
+              <p>Return or exchange your items within 7 days, quickly and without any trouble.</p>
+            </section>
+          </div>
+        </div>
+
+        <div class="about-us__img">
+          <img src="assets/images/about-us.png" alt="" />
+        </div>
+      </section>
+
+      <section id="services" class="services">
+        <div class="services__images">
+          <img class="services-img-1" src="assets/images/services-1.png" alt="" />
+          <img class="services-img-2" src="assets/images/services-2.png" alt="" />
+          <img class="services-img-3" src="assets/images/services-3.png" alt="" />
+        </div>
+
+        <div class="services__content">
+          <h2>We help you make Modern Interior Design</h2>
+          <p>
+            We help you transform your living space into a place of comfort and beauty by offering
+            modern, sustainable, and handcrafted furniture — thoughtfully designed to fit your
+            lifestyle and inspire everyday living.
+          </p>
+          <ul class="services__content__list">
+            <li>Free consultation & design before your purchase</li>
+            <li>Choose your favorite fabric and color</li>
+            <li>A wide range of modern, high-quality furniture</li>
+            <li>Best price guarantee with top-notch quality</li>
+          </ul>
+          <button type="button" class="btn services__content__btn">Explore</button>
+        </div>
+      </section>
+
+      <section id="products" class="products">
+        <div class="products__item">
+          <img class="products__item__img" src="assets/images/sofa-1.png" alt="" />
+          <div class="products__item__txt">
+            <h3>Nordic Chair</h3>
+            <p>Simple and timeless — inspired by Scandinavian design</p>
+            <a href="#">Read more</a>
+          </div>
+        </div>
+
+        <div class="products__item">
+          <img class="products__item__img" src="assets/images/sofa-2.png" alt="" />
+          <div class="products__item__txt">
+            <h3>Kruzi Aero</h3>
+            <p>Elegant and functional — designed for modern comfort</p>
+            <a href="#">Read more</a>
+          </div>
+        </div>
+
+        <div class="products__item">
+          <img class="products__item__img" src="assets/images/sofa-3.png" alt="" />
+          <div class="products__item__txt">
+            <h3>Ergonomic Chair</h3>
+            <p>Clean lines, soft comfort — crafted for everyday living</p>
+            <a href="#">Read more</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="testimonials">
+        <h2>Testimonials</h2>
+
+        <div class="testimonials__content">
+          <button type="button" aria-label="back" class="testimonials__btn">
+            <img src="assets/icons/arrow-left.svg" alt="" />
+          </button>
+
+          <p>
+            The quality of the furniture we purchased from this store has completely transformed our
+            living space. From the moment we stepped inside, the staff was attentive without being
+            pushy, guiding us toward options that perfectly matched our aesthetic. The craftsmanship
+            on the new sofa is superb; every seam is perfect, and the fabric feels incredibly
+            durable yet luxurious. Delivery and setup were handled efficiently and professionally.
+            Highly recommended for anyone seeking premium comfort and style!
+          </p>
+
+          <button type="button" aria-label="next" class="testimonials__btn">
+            <img src="assets/icons/arrow-right.svg" alt="" />
+          </button>
+        </div>
+
+        <figure class="testimonials__author">
+          <img src="assets/images/user.png" alt="" />
+
+          <figcaption>
+            <span>Michelle Anna</span>
+            <span>CEO, Co-Founder, XYZ Inc.</span>
+          </figcaption>
+        </figure>
+
+        <div class="testimonials__indicators">
+          <div class="indicator"></div>
+          <div class="indicator indicator--active"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+        </div>
+      </section>
+
+      <section id="blog" class="blog">
+        <div class="blog__title">
+          <h2>Recent Blog</h2>
+          <a href="#">View All Posts</a>
+        </div>
+
+        <div class="blog__posts">
+          <figure class="blog__post">
+            <img src="assets/images/post-1.png" alt="" />
+            <figcaption>
+              <h4>Make your house a home</h4>
+              <span>
+                <em>By</em> <strong>Ben Shaw</strong> <em>on</em> <strong>Nov 18th</strong>,
+                <strong>2025</strong>
+              </span>
+            </figcaption>
+          </figure>
+
+          <figure class="blog__post">
+            <img src="assets/images/post-2.png" alt="" />
+            <figcaption>
+              <h4>Smart choices for new homes</h4>
+              <span>
+                <em>By</em> <strong>David kley</strong> <em>on</em> <strong>Mar 12th</strong>,
+                <strong>2025</strong>
+              </span>
+            </figcaption>
+          </figure>
+
+          <figure class="blog__post">
+            <img src="assets/images/post-3.png" alt="" />
+            <figcaption>
+              <h4>Start your home journey</h4>
+              <span>
+                <em>By</em> <strong>Leo Gray</strong> <em>on</em> <strong>Oct 15th</strong>,
+                <strong>2025</strong>
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

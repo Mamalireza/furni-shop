@@ -1,0 +1,127 @@
+Font {
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet"
+  />
+}
+
+Colors {
+  #3b5d50;
+  #35736e;
+  #2f2f2f;
+  #f9bf29;
+  #eff2f1;
+  #6a6a6a;
+  #c4c4c4;
+}
+
+Texts {
+  Home
+  About us
+  Services
+  Blog
+  Contact us
+
+  Modern Interior Design Studio
+
+  Shop Now
+  Explore
+
+  Crafted with excellent material
+
+  Not just furniture, but a touch of art for your home. Created to inspire you, made to last.
+  
+  Explore
+
+  Nordic Chair 
+  $50.00
+
+  Kruzo Aero Chair
+  $78.00
+
+  Ergonomic Chair
+  $43.00
+
+  Why Choose Us
+
+  At Furni, we craft furniture that brings style, comfort, and sustainability to your home. Designs made to reflect you and last.
+
+  Fast  & Free Shipping 
+  Easy to Shop
+  24/7 Support
+  Hassle Free Returns
+
+  Quick delivery with zero shipping costs. Get your favorite pieces fast and hassle-free.
+
+  A smooth, effortless shopping experience with a few clicks, bringing your favorite furniture home.
+
+  Reliable support, day and night, to make your shopping simple, smooth, and worry-free.
+
+  Return or exchange your items within 7 days, quickly and without any trouble.
+
+  We help you make Modern Interior Design   
+
+  We help you transform your living space into a place of comfort and beauty by offering modern, sustainable, and handcrafted furniture — thoughtfully designed to fit your lifestyle and inspire everyday living.
+
+  Free consultation & design before your purchase
+  Choose your favorite fabric and color
+  A wide range of modern, high-quality furniture
+  Best price guarantee with top-notch quality
+
+  Nordic Chair
+  Kruzo Aero Chair
+  Ergonomic Chair
+
+  Simple and timeless — inspired by Scandinavian design
+  Elegant and functional — designed for modern comfort
+  Clean lines, soft comfort — crafted for everyday living
+
+  Read more
+
+  Testimonials
+
+  The quality of the furniture we purchased from this store has completely transformed our living space. From the moment we stepped inside, the staff was attentive without being pushy, guiding us toward options that perfectly matched our aesthetic. The craftsmanship on the new sofa is superb; every seam is perfect, and the fabric feels incredibly durable yet luxurious. Delivery and setup were handled efficiently and professionally. Highly recommended for anyone seeking premium comfort and style!
+
+  Michelle Anna 
+  CEO, Co-Founder, XYZ Inc.
+
+  Recent Blog
+
+  View All Posts
+
+  Make your house a home
+  By Ben Shaw on Nov 18th, 2025
+
+  Smart choices for new homes
+  By David kley on Mar 12th, 2025
+
+  Start your home journey
+  By Leo Gray on Oct 15th, 2025
+
+  Subscribe to Newsletter
+  Enter your name
+  Enter your email
+
+  Furni brings style and comfort to your home with thoughtfully designed furniture. Transform your space into a place you love with pieces that reflect your personality and feature craftsmanship built to last.
+
+  About us
+  Services
+  Blog
+  Contact us
+
+  Support
+  Knowledge base
+  Live chat
+
+  Jobs
+  Our team
+  Leadership
+  Privacy Policy
+
+  Copyright 2025 Furni All Rights Reserved.
+
+  Terms & Conditions
+  Privacy Policy
+}

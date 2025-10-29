@@ -1,0 +1,49 @@
+Format:
+
+<type>(<scope>): <description> (<referencing issues>)
+(<scope>) and (<referencing issues>) are optional
+
+---
+
+Example:
+
+chore: update index.html
+feat(lang): add Persian language
+fix(login): fix login Auth (#23)
+
+---
+
+Type:
+
+feat: (a new feature for the user, not a new feature for build scripts or tools)
+Example: feat(auth): add login with Google
+
+fix: (a bug fix for the user, not a fix to build scripts or tools)
+Example: fix(cart): correct discount calculation
+
+docs: (changes to documentation only; e.g., README, guides, wiki)
+Example: docs: update API usage examples
+
+style: (code style changes like formatting, whitespace, missing semicolons; no production code change)
+Example: style: format code with eslint rules
+
+refactor: (refactoring production code without changing its behavior; e.g., renaming variables, simplifying logic)
+Example: refactor(user): simplify validation logic
+
+test: (adding or updating tests; no changes to production code)
+Example: test(api): add unit tests for user service
+
+chore: (changes to build process, tools, or dependencies; no production code change)
+Example: chore: update dependencies to latest versions
+
+perf: (performance improvements that do not change the functionality)
+Example: perf(search): optimize query for faster results
+
+build: (changes to build system or external dependencies; e.g., webpack, npm, gradle)
+Example: build: add Docker support for production
+
+ci: (changes to CI/CD configuration or scripts; e.g., GitHub Actions, Travis, Jenkins)
+Example: ci: add GitHub Actions workflow for tests
+
+revert: (revert a previous commit)
+Example: revert: revert login API due to errors
