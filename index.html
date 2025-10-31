@@ -299,6 +299,17 @@
             <span>CEO, Co-Founder, XYZ Inc.</span>
           </figcaption>
         </figure>
+
+        <div class="testimonials__indicators">
+          <div class="indicator"></div>
+          <div class="indicator indicator--active"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+          <div class="indicator"></div>
+        </div>
       </section>
 
       <section id="blog" class="blog">
@@ -356,6 +367,7 @@
           </div>
 
           <form name="Subscribe" class="subscribe__from">
+            <label for="name" class="sr-only">name</label>
             <input
               type="text"
               id="name"
@@ -364,6 +376,7 @@
               autocomplete="name"
               required
             />
+            <label for="email" class="sr-only">email</label>
             <input
               type="email"
               id="email"
@@ -373,7 +386,7 @@
               required
             />
             <button type="submit" aria-label="Submit">
-              <img src="assets/icons/send.svg" alt="" />
+              <img src="assets/icons/send.svg" alt="send" />
             </button>
           </form>
         </div>
@@ -444,6 +457,9 @@
           <img src="assets/icons/instagram.svg" alt="instagram logo" />
         </a>
       </div>
+
+      <hr class="separator" />
+
       <div class="copyright">
         <p>
           Copyright 2025 <strong>Mohamadreza Mostahsan</strong>. All Rights
